@@ -4,9 +4,10 @@ go 1.22
 
 // Personal fork of gastownhall/gascity for learning Ethereum tooling.
 // Upstream: https://github.com/gastownhall/gascity
+// Note: Bumped go-ethereum to v1.13.15 to pick up the latest RPC fixes.
 
 require (
-	github.com/ethereum/go-ethereum v1.13.14
+	github.com/ethereum/go-ethereum v1.13.15
 	github.com/urfave/cli/v2 v2.27.1
 	go.uber.org/zap v1.27.0
 )
@@ -19,6 +20,6 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20231213231151-1d8dd44e695e // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.21.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/crypto v0.22.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 )
