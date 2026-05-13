@@ -5,6 +5,8 @@ go 1.22
 // Personal fork of gastownhall/gascity for learning Ethereum tooling.
 // Upstream: https://github.com/gastownhall/gascity
 // Note: Bumped go-ethereum to v1.13.15 to pick up the latest RPC fixes.
+// Note: Bumped go.uber.org/zap to v1.27.0 (latest) for structured logging improvements.
+// TODO: Experiment with replacing urfave/cli with cobra for subcommand ergonomics.
 
 require (
 	github.com/ethereum/go-ethereum v1.13.15
