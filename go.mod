@@ -9,6 +9,7 @@ go 1.22
 // TODO: Experiment with replacing urfave/cli with cobra for subcommand ergonomics.
 // TODO: Look into switching holiman/uint256 usage to math/big in a few hot paths to
 //       understand the performance tradeoff firsthand.
+// TODO: Benchmark crypto/ecdsa vs go-ethereum's internal secp256k1 for signing perf.
 
 require (
 	github.com/ethereum/go-ethereum v1.13.15
