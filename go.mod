@@ -7,6 +7,8 @@ go 1.22
 // Note: Bumped go-ethereum to v1.13.15 to pick up the latest RPC fixes.
 // Note: Bumped go.uber.org/zap to v1.27.0 (latest) for structured logging improvements.
 // TODO: Experiment with replacing urfave/cli with cobra for subcommand ergonomics.
+// TODO: Look into switching holiman/uint256 usage to math/big in a few hot paths to
+//       understand the performance tradeoff firsthand.
 
 require (
 	github.com/ethereum/go-ethereum v1.13.15
